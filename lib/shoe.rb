@@ -1,4 +1,4 @@
-require pry
+require 'pry'
 
 class Shoe
   
@@ -9,7 +9,7 @@ class Shoe
     @brand = brand_new
   end
   
-  
+  binding.pry
   
   def cobble
     @condition = 'new'
