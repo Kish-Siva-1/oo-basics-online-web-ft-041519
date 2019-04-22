@@ -1,3 +1,5 @@
+require pry
+
 class Shoe
   
   attr_accessor :brand, :color, :size, :material, :condition
@@ -6,6 +8,8 @@ class Shoe
   def initialized(brand_new = "Adidas")
     @brand = brand_new
   end
+  
+  
   
   def cobble
     @condition = 'new'
